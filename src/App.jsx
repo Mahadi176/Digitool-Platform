@@ -42,8 +42,16 @@ function App() {
     </div>
 
     <div className="tabs tabs-box justify-center bg-transparent">
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Product" onClick={()=> setActiveTab("product")} defaultChecked/>
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart (${carts.length})`} onClick={()=> setActiveTab("cart")}  />
+  <input type="radio" name="my_tabs_1"  aria-label="Product" onClick={()=> setActiveTab("product")} defaultChecked   className={`tab rounded-full w-40 transition-all
+      ${activeTab === "product"
+        ? "bg-violet-700 text-white"
+        : "bg-white text-black"}
+    `}/>
+  <input type="radio" name="my_tabs_1" aria-label={`Cart (${carts.length})`} onClick={()=> setActiveTab("cart")}  className={`tab rounded-full w-40 transition-all
+      ${activeTab === "cart"
+        ? "bg-violet-700 text-white"
+        : "bg-white text-black"}
+    `} />
 </div>
 </div>
    {activeTab ==="product" && <Products productPromise={productPromise} carts={carts} setCarts={setCarts}/>}
