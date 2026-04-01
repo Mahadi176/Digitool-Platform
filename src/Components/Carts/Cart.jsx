@@ -10,7 +10,7 @@ const Cart = ({carts,setCarts}) => {
     setCarts(filteredCart)
    }
     return (
-        <div className='p-10 lg:w-5xl  mx-auto'>
+        <div className='p-10 lg:w-5xl  mx-auto shadow-xl rounded-3x'>
             <h1 className='text-3xl font-bold mb-10'>Your Cart</h1>
             {
                 carts.length === 0 ? <p className='text-xl p-10 text-gray-400 font-bold text-center'>Your cart is Empty</p> :
@@ -29,7 +29,7 @@ const Cart = ({carts,setCarts}) => {
                         </div>
                        </div>
                         <div>
-                            <div onClick={() => handleDelete(cart)} className=' text-red-500'>Remove</div>
+                            <button onClick={() => handleDelete(cart)} className=' text-red-500 btn bg-gray-100 border-none'>Remove</button>
                         </div>
                     </div>)
                 }

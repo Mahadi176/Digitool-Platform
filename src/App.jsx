@@ -35,7 +35,12 @@ function App() {
       <Banner/>
       <Banner2/>
       {/* <Products productPromise={productPromise}/> */}
-<div>
+<div className='mx-auto max-w-7xl'>
+    <div className='text-center my-10'>
+    <h1 className='text-5xl font-bold'>Premium Digital Tools</h1>
+    <p className='my-5'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
+    </div>
+
     <div className="tabs tabs-box justify-center bg-transparent">
   <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Product" onClick={()=> setActiveTab("product")} defaultChecked/>
   <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart (${carts.length})`} onClick={()=> setActiveTab("cart")}  />
