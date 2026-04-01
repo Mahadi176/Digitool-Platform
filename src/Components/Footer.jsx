@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-13 gap-10">
           {/* Logo & Description */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-6">
               <h2 className="text-3xl font-bold tracking-tighter text-white">
                 DigiTools

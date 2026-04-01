@@ -27,8 +27,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex items-center justify-center gap-5">
-        <div><ShoppingCart /></div>
-        <div>Login</div>
+        <div><a><ShoppingCart /></a></div>
+        <button className='btn  bg-white border-0'>Login</button>
         <button className='btn btn-primary rounded-4xl'>Get Started</button>
       </div>
     </div>
