@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetStarted = () => {
     return (
-        <div className='mx-auto text-center'>
+        <div className='mx-auto text-center my-10'>
            <div className='p-10 text-center'>
              <h1 className='text-5xl font-bold'>Get Started In 3 Steps</h1>
             <p className='my-5'>Start using premium digital tools in minutes, not hours.</p>
