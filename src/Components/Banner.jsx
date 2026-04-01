@@ -4,7 +4,7 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className="relative min-h-162.5 flex items-center overflow-hidden p-4j">
+    <div className="relative min-h-162.5 flex items-center overflow-hidden p-4">
       <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
         {/* Left Content */}
         <div className="space-y-4">
