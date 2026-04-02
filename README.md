@@ -1,16 +1,21 @@
-# React + Vite
+Project Name : DigiTools Paltform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description :
+Digi Tool Platform is built to simplify access to essential digital tools by organizing them into an intuitive interface. Users can browse tools, add items to a cart, and interact with features seamlessly. The project focuses on usability, responsiveness, and performance.
 
-Currently, two official plugins are available:
+Technologies Used :
+1.React.js
+2.JavaScript (ES6+)
+3.Tailwind CSS
+4.DaisyUI
+5.Lucide React
+6.React Tostify
+7.JSON (Data Handling)
+8.Vercel (Deployment)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features :
+1.Cart system to add and delete selected tools dynamically
+2.Interactive and responsive user interface
+3.Real-time state updates using React
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Live Demo: https://digi-tool-platform.vercel.app/
