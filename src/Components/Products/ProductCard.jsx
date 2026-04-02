@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProductFeature from "./ProductFeature";
+import { toast } from "react-toastify";
 
 const ProductCard = ({ product, carts, setCarts }) => {
   const [isBuy, setIsBuy] = useState(false);
@@ -11,6 +12,7 @@ const ProductCard = ({ product, carts, setCarts }) => {
       return;
     }
     setCarts([...carts, product]);
+    toast.success("Product Added to Cart !")
   };
 
   return (
