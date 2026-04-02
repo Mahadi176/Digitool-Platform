@@ -11,14 +11,14 @@ import { Suspense } from 'react'
 import { useState } from 'react'
 
 const getPricing = async() => {
-  const res = await fetch('../public/Pricing.json');
+  const res = await fetch('/Pricing.json');
   return res.json();
 }
 
 const pricingPromise = getPricing();
 
 const GetProduct = async() =>{
-  const res = await fetch('../public/ProductData.json');
+  const res = await fetch('/ProductData.json');
   return res.json();
 }
 

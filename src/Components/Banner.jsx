@@ -1,6 +1,7 @@
 import { Target } from 'lucide-react';
 import { Play } from 'lucide-react';
 import React from 'react';
+import BannerImg from "/assets/banner.png"
 
 const Banner = () => {
   return (
@@ -31,7 +32,7 @@ const Banner = () => {
           <div className="relative">
             <img
               className="relative h-130 w-auto object-contain drop-shadow-2xl"
-              src="/src/assets/banner.png"
+              src={BannerImg}
               alt="AI Models Banner"
             />
           </div>

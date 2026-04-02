@@ -7,7 +7,7 @@ const Products = ({productPromise,carts,setCarts}) => {
     return (
         <div className="md:grid grid-cols-3 gap-10 mx-auto max-w-7xl px-4 m-5">
             {
-                productData.map(product => <ProductCard key={product.id} product={product} carts={carts} setCarts={setCarts} />)
+                productData?.map(product => <ProductCard key={product?.id} product={product} carts={carts} setCarts={setCarts} />)
             }
         </div>
     );

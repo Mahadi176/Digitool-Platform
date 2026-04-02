@@ -17,7 +17,7 @@ const GetStarted = () => {
                 <h3 className='bg-violet-600 text-white w-6 rounded-full'> 1 </h3>
             </div>
             <div className=' flex flex-col items-center mb-7'>
-                    <div className='mb-2'><img src="/src/assets/user.png" alt="" /></div>
+                    <div className='mb-2'><img src="/assets/user.png" alt="" /></div>
             <div>
                 <h1 className='text-2xl font-bold mb-2'>Create Account</h1>
                 <p>Sign up for free in seconds. No credit card required to get started.</p>
@@ -30,7 +30,7 @@ const GetStarted = () => {
                 <h3 className='bg-violet-600 text-white w-6  rounded-full'> 1 </h3>
             </div>
             <div className=' flex flex-col items-center mb-7'>
-                    <div className='mb-2'><img src="/src/assets/package.png" alt="" /></div>
+                    <div className='mb-2'><img src="/assets/package.png" alt="" /></div>
             <div>
                 <h1 className='text-2xl font-bold mb-2'>Create Account</h1>
                 <p>Sign up for free in seconds. No credit card required to get started.</p>
@@ -43,7 +43,7 @@ const GetStarted = () => {
                 <h3 className='bg-violet-600 text-white w-6  rounded-full'> 1 </h3>
             </div>
             <div className=' flex flex-col items-center mb-7'>
-                    <div className='mb-2'><img src="/src/assets/rocket.png" alt="" /></div>
+                    <div className='mb-2'><img src="/assets/rocket.png" alt="" /></div>
             <div>
                 <h1 className='text-2xl font-bold mb-2'>Create Account</h1>
                 <p>Sign up for free in seconds. No credit card required to get started.</p>

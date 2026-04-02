@@ -12,7 +12,7 @@ const Pricing = ({pricingPromise}) => {
         </div>
         <div className="md:flex justify-center gap-10 p-4">
             {
-                pricingData.map(price =><PricingCard key={price.id} price={price}/>)
+                pricingData?.map(price =><PricingCard key={price?.id} price={price}/>)
             }
         </div>
         </div>
